@@ -1,0 +1,21 @@
+// mobile
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 50vh;
+  max-height: 20rem;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+// tablet
+@media(min-width: 481px) {
+  form {
+    padding: 2rem;
+    width: 80vw;
+    max-width: 50rem;
+
+  }
+}
