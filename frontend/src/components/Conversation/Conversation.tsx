@@ -4,7 +4,7 @@ import "./Conversation.scss"
 const Conversation = () => {
     return (
         <form>
-            <textarea>Question?</textarea>
+            <textarea placeholder="Question"/>
             <div>
                 Answer
             </div>
